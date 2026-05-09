@@ -1,0 +1,28 @@
+# macOS system files
+    .DS_Store
+    
+    # Node.js dependencies
+    node_modules/
+    
+    # Environment variables (security)
+    .env
+    
+    # Build folders
+    dist/
+    build/
+    ```
+3.  **Save and Sync**:
+    
+```bash
+    git add .gitignore
+    git commit -m "added gitignore to keep repo clean"
+    git push
+    ```
+
+### Professional Alignment
+Maintaining a clean repository is a **High Agency** habit that mirrors your focus on **"Volume & Sustainability"**. It ensures that when you eventually scale this into a larger project or share it with a team, the infrastructure is already standardized.
+
+
+
+Now that the "plumbing" is finished, are you ready to start moving your storefront code—like the **Vercel** deployment files or **Dikhao** integration scripts—into this folder?
+
